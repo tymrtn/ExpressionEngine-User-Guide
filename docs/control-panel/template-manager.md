@@ -117,13 +117,12 @@ This section of the Control Panel is for the various "notification" emails that 
 
 **Control Panel Location: `Developer > Templates > Forums`**
 
-The ExpressionEngine Forums make use of "themes" to determine how they are displayed. The Forum Module comes with a "default" theme, which is located in your installation under themes/forum_themes/.
+The ExpressionEngine Forums make use of "themes" to determine how they are displayed. The Forum Module comes with a "default" theme, which is located in your installation under system/ee/templates/_themes/forum/.
 
 In order to edit the Templates inside the Control Panel, set the theme folders and files to be writable. See [File Permissions](troubleshooting/general.md#file-permissions) for details.
 
-If you plan to make changes to your theme, we recommend that you make a copy of the themes/forum_themes/default/ directory, name it something else, and make your changes to that one. You can easily switch themes simply by choosing a new one under Default Preferences.
+If you plan to make changes to your theme, we recommend that you make a copy of the system/ee/templates/_themes/forum/default/ directory, name it something else, and make your changes to that one.
 
-For anyone creating their own theme or modifying one, the original "PSD" version of the "ExpressionEngine Forums" graphic [is available for download](https://ellislab.com/asset/file/forum_logo_psd.zip).
 
 ## Member Profile Templates
 
@@ -133,7 +132,7 @@ NOTE: **Note:** The Member Profile Templates are legacy as of ExpressionEngine 6
 
 The public profile area has its own set of templates which can be edited to change the look. You'll find the templates located at:
 
-    themes/ee/member/default/
+    system/ee/templates/_themes/member/
 
 A good strategy is to make a copy of the entire **default** templates folder, then edit your copy so you can leave the **default** files intact. Save your new copy to:
 
